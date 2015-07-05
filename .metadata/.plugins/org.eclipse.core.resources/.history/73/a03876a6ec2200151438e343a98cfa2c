@@ -1,0 +1,23 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class Chose_aps_we_need {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String url="E:\\室内定位2\\新数据\\概率法\\sampling";
+		String destination="E:\\室内定位2\\新数据\\概率法\\sampling_delt";
+		String s="tp5";
+		String p="tp\\d";
+		Pattern pattern=Pattern.compile(p);
+		Matcher m=pattern.matcher(s);
+		if(m.find()){
+		if(s.equals(m.group())){
+			System.out.println(m.group());
+		}
+		
+		}
+	}
+
+}
