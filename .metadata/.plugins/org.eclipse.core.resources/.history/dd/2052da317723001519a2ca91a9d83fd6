@@ -147,8 +147,8 @@ public class MainActivity extends Activity {
 	        public void onClick(View v) {
 	            // TODO Auto-generated method stub
 	            //将线程接口立刻送到线程队列中
-	          handler.post(update_thread);
-	         // handler.postDelayed(update_thread, 15000);
+	        //  handler.post(update_thread);
+	          handler.postDelayed(update_thread, 15000);
 	          start.setEnabled(false);
 	    }
 	     
